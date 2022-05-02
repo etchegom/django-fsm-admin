@@ -5,7 +5,7 @@ from collections import defaultdict
 from django.conf import settings
 from django.contrib import messages
 from django.utils.translation import gettext_lazy as _
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.contrib.admin.templatetags.admin_urls import add_preserved_filters
 from django.http import HttpResponseRedirect
 
